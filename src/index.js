@@ -6,5 +6,5 @@ import './index.css';
 // const saludo = <h1>Hola Mundo</h1>;
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp/>, divRoot);
+ReactDOM.render(<PrimeraApp saludo = { 123 }/>, divRoot);
 
